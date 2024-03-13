@@ -10,11 +10,11 @@ app.get('/', (req, res) => {
     res.status(200)
       .send(`<div style="text-align:center;">NodeJs Hall Booking API</div>
     <ul>
-    <li> Create a room  : <mark>/createRoom</mark> </li>
-    <li> book rooms   : <mark>/bookroom </mark></li>
-    <li> List booked rooms   : <mark>/bookedrooms </mark></li>
-    <li> List customers   : <mark>/customer </mark></li>
-    <li> List booking count   : <mark>/bookingcount </mark></li>
+    <li> Create a room  : <mark>/api/createroom</mark> </li>
+    <li> book rooms   : <mark>/api/bookroom </mark></li>
+    <li> List booked rooms   : <mark>/api/bookedrooms </mark></li>
+    <li> List customers   : <mark>/api/customers </mark></li>
+    <li> List booking count   : <mark>/api/bookingcount </mark></li>
     </ul>`);
 })
 
