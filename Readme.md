@@ -1,7 +1,7 @@
 
-# Hall Booking Application
+# Hall Booking Api
 
-This is a simple hall booking application built using Node.js and Express. It provides RESTful APIs for creating rooms, booking rooms, and retrieving booking information.
+This is a simple hall booking api built using Node.js and Express. It provides RESTful API endpoints for creating rooms, booking rooms, and retrieving booking information.
 
 ## Documentation
 
